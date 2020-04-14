@@ -1,0 +1,3 @@
+db.createUser({user:"myuser", pwd:"secret", roles:[{role:"readWrite", db: "test"}]});
+'mongodb://myuser:secret:@13.233.84.237:27017/?authMechanism=DEFAULT&authSource=test
+mongodb://myuser:secret@13.233.84.237:27017/test
